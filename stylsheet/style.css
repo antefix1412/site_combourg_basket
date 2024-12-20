@@ -20,3 +20,24 @@ header ul{
 header details, header summary{
     list-style: none
 }
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+
+footer img{
+    width: 20px;
+    padding: 5px;
+}
