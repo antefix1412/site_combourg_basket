@@ -12,13 +12,17 @@ header{
     justify-content: space-between;
 }
 
-header ul{
+header li{
     display: flex;
     list-style: none;
 }
 
 header details, header summary{
     list-style: none
+}
+
+ul ,li{
+    text-decoration: none;
 }
 
 
