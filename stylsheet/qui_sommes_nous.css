@@ -1,6 +1,10 @@
 *, ::after, ::before{
     margin: 0;
     padding: 0;
+    background-color: rgb(17, 17, 116);
+    color: white;
+    list-style: none;
+    text-decoration: none;
 }
 
 header img{
@@ -25,9 +29,26 @@ ul ,li{
     text-decoration: none;
 }
 
+main{
+    text-align: center;
+}
 
+main h1{
+    margin: 3rem;
+}
 
+main p{
+    margin: 2rem;
+}
 
+main ul{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+main img{
+    width: 40rem;
+}
 
 footer{
     display: flex;
