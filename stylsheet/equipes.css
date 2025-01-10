@@ -1,0 +1,47 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    width: 5rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header li{
+    display: flex;
+    list-style: none;
+}
+
+header details, header summary{
+    list-style: none
+}
+
+ul ,li{
+    text-decoration: none;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+
+footer img{
+    width: 20px;
+    padding: 5px;
+}
