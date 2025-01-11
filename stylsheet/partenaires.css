@@ -1,6 +1,10 @@
 *, ::after, ::before{
     margin: 0;
     padding: 0;
+    background-color: rgb(17, 17, 116);
+    color: white;
+    list-style: none;
+    text-decoration: none;
 }
 
 header img{
