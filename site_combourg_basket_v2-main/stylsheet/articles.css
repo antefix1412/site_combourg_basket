@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header img{
+    width: 10rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(42,67,99);
+}
+
+.hea{
+    font-size: 1.2rem;
+    margin-right: 5rem;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: white;
+}
+
+header li :hover{
+    background-color: rgb(13, 121, 157);
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: rgb(238, 238, 238);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#paypal-button-container {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 2rem;
+    background-color: rgb(42,67,99);
+}
+
+footer p{
+    color: white;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+
+footer img{
+    width: 20px;
+    padding: 5px;
+}

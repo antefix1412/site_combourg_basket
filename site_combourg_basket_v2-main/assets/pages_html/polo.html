@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr-Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo d'équipe</title>
+    <link rel="stylesheet" href="../../stylsheet/articles.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img src="../images/logo.png"></a>
+        <ul class="hea">
+            <li><a href="../../index.html">Acueil</a></li>
+            <li><a href="#">Photos d'équipes</a></li>
+            <li><a href="organigramme.html">Organigramme</a></li>
+            <li><a href="paypal.html">Boutique</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+    </header>
+
+    <main>
+        <img src="#" alt="image du polo">
+
+        <form action="#" method="post">
+            <!-- Sélection de la taille -->
+            <label for="taille">Taille :</label>
+            <select id="taille" name="taille" required>
+                <option value="">-- Sélectionnez une taille --</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+        
+            <!-- Sélection de la couleur -->
+            <label for="couleur">Couleur :</label>
+            <select id="couleur" name="couleur" required>
+                <option value="">-- Sélectionnez une couleur --</option>
+                <option value="rouge">Rouge</option>
+                <option value="bleu">Bleu</option>
+                <option value="vert">Vert</option>
+                <option value="noir">Noir</option>
+            </select>
+        
+            <!-- Option de flocage -->
+            <label for="flocage">Souhaitez-vous un flocage ?</label>
+            <select id="flocage" name="flocage" onchange="toggleInitiales()" required>
+                <option value="">-- Sélectionnez une option --</option>
+                <option value="non">Non</option>
+                <option value="oui">Oui</option>
+            </select>
+        
+            <!-- Saisie des initiales pour le flocage -->
+            <div id="initiales-container" style="display: none;">
+                <label for="initiales">Initiales pour le flocage :</label>
+                <input type="text" id="initiales" name="initiales" maxlength="" placeholder="Ex : AB">
+            </div>
+        
+            <!-- Bouton de soumission -->
+            <button type="submit">Valider</button>
+        </form>
+        
+        <script>
+            // Fonction pour afficher ou masquer le champ des initiales
+            function toggleInitiales() {
+                const flocage = document.getElementById('flocage').value;
+                const initialesContainer = document.getElementById('initiales-container');
+        
+                if (flocage === 'oui') {
+                    initialesContainer.style.display = 'block';
+                    document.getElementById('initiales').required = true;
+                } else {
+                    initialesContainer.style.display = 'none';
+                    document.getElementById('initiales').required = false;
+                }
+            }
+        </script>
+        
+
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.instagram.com/lachateaubriandcombourgbasket/"><img src="../images/img_insta.webp" alt="logo de instagram"></a></li>
+            <li><a href="https://www.facebook.com/p/La-Chateaubriand-Combourg-Basket-Club-100064278326112/?locale=fr_FR"><img src="../images/logo_facebook.png" alt="logo de facebook"></a></li>
+        </ul>
+        <p>Copyright© 2025 <br>
+        Site développé par Antoine Lemesle</p>
+    </footer>
+    
+</body>
+</html>

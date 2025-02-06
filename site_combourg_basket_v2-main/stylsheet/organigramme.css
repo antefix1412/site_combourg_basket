@@ -1,0 +1,93 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+    width: 10rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(42,67,99);
+}
+
+.hea{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-right: 5rem;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li :hover{
+    background-color: rgb(13, 121, 157);
+}
+
+main{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 3rem;
+}
+
+.flex{
+    justify-content: space-around;   
+    display: flex;
+
+}
+
+main p, main h2{
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.org img{
+    width: 10rem;
+    height: 13rem;    /*agrandir l'image en hauteur*/
+    margin-top: 10px;  /*décaler l'image du cadre*/
+}
+
+main h1{
+    color: black;
+    margin: 2rem;
+}
+
+main h2{
+    margin: 80px;
+}
+
+main div{
+    border: 2px solid black;
+    width: 15%;
+    height: 20rem;    /*hauteur du cadre */
+    text-align: center;
+    border-radius: 15px; /*bordure arrondie */
+    background-color: rgba(171, 196, 252, 0.20);/*ajouter couleur de fond avec transparence */
+}
+
+
+footer{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 2rem;
+    background-color: rgb(42,67,99);
+    color: white;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+
+footer img{
+    width: 20px;
+    padding: 5px;
+}

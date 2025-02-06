@@ -1,0 +1,97 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+    width: 10rem;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(42,67,99);
+}
+
+.hea{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-right: 5rem;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li :hover{
+    background-color: rgb(13, 121, 157);
+}
+
+main{
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 3rem;
+}
+
+main h1{
+    margin: 2rem;
+}
+
+main summary{
+    color: black;
+    background-color: white;
+    padding-bottom: 4px;
+    font-size: 1.7rem;
+}
+
+main details{
+    margin: 1rem;
+    border: 2px solid rgb(42,67,99);
+    width: 40%;
+    margin-left: 30%;
+    background-color: rgb(42,67,99);
+}
+
+main details img{
+    padding-top: 1rem;
+}
+
+main details p{
+    color: white;
+}
+
+main img{
+    width: 20rem;
+}
+
+main h1 , main p{
+    color: black;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 2rem;
+    background-color: rgb(42,67,99);
+}
+
+footer p{
+    color: white;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+
+footer img{
+    width: 20px;
+    padding: 5px;
+}
